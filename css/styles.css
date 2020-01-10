@@ -15,7 +15,8 @@ body {
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
-	color: #333;
+  color: #333;
+  display: inline-block;
 }
 a {
 	color: orange;
@@ -146,6 +147,7 @@ nav h1 a {
   padding: 0 30px 25px;
   text-align: left;
   width: 270px;
+  flex
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -273,3 +275,17 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* media quieries */
+
+@media only screen and (max-width: 970px) {
+  ul, li { 
+    max-width: 100%;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 774px) {
+    ul, li { 
+      margin: auto;
+    }
+  
