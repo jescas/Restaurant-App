@@ -3,12 +3,15 @@ const total = [staticCacheName];
 const cacheAssets = [
   './index.html',
   './restaurant.html',
+
   './css/styles.css',
+
   './js/main.js',
   './js/restaurant_info.js',
-  './js/private.js',
   './js/dbhelper.js',
+
   './data/restaurants.json',
+  
   './imgs/1.jpg',
   './imgs/2.jpg',
   './imgs/3.jpg',
